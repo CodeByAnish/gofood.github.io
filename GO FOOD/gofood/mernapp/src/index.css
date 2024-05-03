@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+@layer base {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#carousel{
+  max-height:400px
+}
+.images1{
+  height: 350px;
+}
+
+
+.carousel-item{
+  height: 350px;
+}
+.container{
+  border-color: rgba(52, 56, 57, 0.217);
+}
+.newoffer{
+  color: rgb(243, 232, 232);
+  background-color: red;
+  padding: 1px;
+}
+
+.hoverimage:hover{
+  max-width: 320px;
+}
+.menudata{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagetopslide{
+  max-width: 120px;
+  height: 120px;
+ 
+}
+
+.menudata{
+  padding: 20px 10px;
+  margin-top: 20px;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 1px ;
+  border-radius: 10px;
+ 
+
+}
+
+.titletop{
+  margin-top: 8px;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.h2heading{
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+
+.offerimg{
+  width: 240px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px  solid black;
+  box-shadow: 4px 3px 4px ;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+
+}
+.offerimg:hover{
+  transform: scale(1.1);
+}
+.offercontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardcontainer{
+   max-width: 270px;
+}
+
+.offerdisco{
+  margin-top: 14px;
+  margin-left: 10px;
+  font-weight: 900;
+  color: brown;
+  
+}
+
+.titleoffer{
+  margin-top: -10px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.aboutoffer{
+  max-width: 250px;
+
+}
+
+.containeroffer{
+  margin-top: 20px;
+  
+}
+
+.restaurent{
+  margin-top: 22px;
+  padding: 10px;
+}
+
+.btn-primary{
+  text-decoration: none;
+  background-color: #f97316;
+}
+
+
+
+.add-to-cart{
+  width: 100px;
+  border: 2px solid #b23301;
+  color: #b23301;
+}
+
+.add-to-cart:hover{
+  transition: all .3s ease-in-out;
+  background-color: #f74c09;
+  border-color: #fff;
+  color: #fff;
+  
+}
+
+Link{
+  text-decoration: none;
+}
